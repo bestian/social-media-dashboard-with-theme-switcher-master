@@ -10,7 +10,7 @@
             </div>
           </h1>
         </div>
-        <div class="four wide column">
+        <div class="four wide column right">
           <div class="inline field">
             <sui-form-field>
               <label>Dark Mode </label>
@@ -24,36 +24,44 @@
           <div class="ui card">
             <div class="top bar lime-blue"></div>
             @nathanf
-            <h1>1987</h1>
+            <h1 class="gigi">1987</h1>
             Followers
-            12 Today
+            <div class="green">
+              <img src="../assets/icon-up.svg"/>12 Today
+            </div>
           </div>
         </div>
         <div class="four wide column">
           <div class="ui card"> 
             <div class="top bar lime-blue"></div>
             @nathanf
-            <h1>1044</h1>
+            <h1 class="gigi">1044</h1>
             Followers
-            99 Today
+            <div class="green">
+              <img src="../assets/icon-up.svg"/>99 Today
+            </div>
           </div>
         </div>
         <div class="four wide column">
           <div class="ui card">
             <div class="top bar lime-blue"></div>
             @realnathanf
-            <h1>11k</h1>
+            <h1 class="gigi">11k</h1>
             Followers
-            1099 Today
+            <div class="green">
+              <img src="../assets/icon-up.svg"/>1099 Today
+            </div>
           </div>
         </div>
         <div class="four wide column">
           <div class="ui card">
             <div class="top bar lime-blue"></div>
             Nathan F.
-            <h1>8239</h1>
+            <h1 class="gigi">8239</h1>
             Subscribers
-            144 Today
+            <div class="green">
+              <img src="../assets/icon-up.svg"/>144 Today
+            </div>
           </div>
         </div>
     </div>
@@ -112,4 +120,26 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
+.right {
+  text-align: right;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+}
+
+.ui.card {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #f2f2f2;
+}
+
+.gigi {
+  font-weight: bold;
+  font-size: 42px;
+  margin: 0 auto;
+}
+
 </style>

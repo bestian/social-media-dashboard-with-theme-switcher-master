@@ -23,6 +23,10 @@ export default {
 
 @import './variables.scss';
 
+body {
+  background-color: #f9f9f9;
+}
+
 .top.bar.lime-blue {
   position: absolute;
   top: 0;

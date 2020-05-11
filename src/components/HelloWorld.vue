@@ -118,7 +118,7 @@ export default {
   },
   data () {
     return {
-      light: false,
+      light: true,
       list: [
         ['Page Views', '87', 3, 'facebook'],
         ['Likes', '52', -2, 'facebook'],

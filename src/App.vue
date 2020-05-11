@@ -3,7 +3,7 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.github.com/bestian" target="_blank">Bestian Tang</a>.
   </div>
   </div>
 </template>
@@ -27,19 +27,8 @@ body {
   background-color: #f9f9f9;
 }
 
-.top.bar.lime-blue {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: $Lime-Green; 
-}
-
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
 }
 
 .attribution { font-size: 11px; text-align: center; }
